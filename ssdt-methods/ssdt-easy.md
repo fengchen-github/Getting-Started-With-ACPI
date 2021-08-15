@@ -42,7 +42,7 @@ What are all these options?:
 * `7. USB Reset     - Reset USB controllers to allow hardware mapping`
   * This is SSDT-RHUB, used for resetting USB ports in macOS for Asus's Z490 motherboards
 * `8. Dump DSDT  - Automatically dump the system DSDT`
-  * Dumps your DSDT from your firmware
+  * Dumps your DSDT from your firmware.This step is not available on macos, it needs to be run on win or linux
 
 What we want to do is select option `8. Dump DSDT` first, then select the appropriate option(s) for your system.
 
